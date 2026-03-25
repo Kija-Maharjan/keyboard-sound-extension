@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.keysound" path="/org/gnome/shell/extensions/keysound/">
+    <key name="enabled" type="b">
+      <default>true</default>
+      <summary>Enable key sounds</summary>
+      <description>Whether to play sounds on key presses</description>
+    </key>
+    <key name="volume" type="d">
+      <default>0.5</default>
+      <summary>Sound volume</summary>
+      <description>Volume level for key sounds (0.0 to 1.0)</description>
+      <range min="0.0" max="1.0"/>
+    </key>
+    <key name="sound-style" type="s">
+      <default>'click1'</default>
+      <summary>Sound style</summary>
+      <description>The sound set to use for key presses</description>
+    </key>
+  </schema>
+</schemalist>
