@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Key Sound",
+  "version": "2.0",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+  "uuid": "keysound@kija-maharjan.github.com",
+  "name": "Key Sound",
+  "description": "Play sounds on key presses",
+  "version": 2,
+  "creator": "Kija Maharjan",
+  "url": "https://github.com/Kija-Maharjan/key-sound-gnome",
+  "shell-version": ["43", "44", "45", "46", "47", "48"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["sound/*/*.wav"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

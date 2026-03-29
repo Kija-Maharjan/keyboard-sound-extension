@@ -1,9 +1,0 @@
-{
-  "uuid": "keysound@kija-maharjan.github.com",
-  "name": "Key Sound",
-  "description": "Play sounds on key presses",
-  "version": 2,
-  "creator": "Kija Maharjan",
-  "url": "https://github.com/Kija-Maharjan/key-sound-gnome",
-  "shell-version": ["43", "44", "45", "46", "47", "48"]
-}

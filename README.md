@@ -24,8 +24,3 @@ How to add it to your browser (Note: It doesn't work in windows web browser and 
 4th, enable developer mode to the right top of the extension manager page 
 5th, click on load unpack then selecet the downloaded (extracted folder or clone repo)
 6th, you are good to go, select what sound effect you want use it for your liking.
-
-schemas
-sound
-extension.js
-metadata.json
